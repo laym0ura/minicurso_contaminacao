@@ -1,0 +1,30 @@
+# Arquivos de cache e temporários
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.db
+
+# Ambiente virtual
+.venv/
+venv/
+env/
+*.egg-info/
+.conda/
+
+# Configuração do Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dados locais
+data/
+*.csv
+*.xlsx
